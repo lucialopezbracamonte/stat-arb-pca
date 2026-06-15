@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "annualized_return": 0.006120876759918853,
+    "annualized_vol": 0.0483773039243996,
+    "sharpe": 0.12652372628049088,
+    "max_drawdown": -0.11794709687937666,
+    "hit_rate": 0.511837930192824,
+    "n_days": 4097.0
+  },
+  "subperiod_sharpes": {
+    "2010-2013": 0.11000220776588865,
+    "2014-2017": 0.6162898287169144,
+    "2018-2021": -0.020661377011833303,
+    "2022-2026": 0.015781145416867724
+  },
+  "bootstrap_sharpe_ci90": [
+    -0.24189958973235867,
+    0.5014129750835327
+  ],
+  "bootstrap_p_value_mean_leq_0": 0.301,
+  "permutation_real_sharpe": 0.12652372628049088,
+  "permutation_null_mean": -0.734207026220512,
+  "permutation_null_std": 0.1950419420937732,
+  "permutation_p_value": 0.0,
+  "avg_turnover_per_rebalance": 0.8460474368250197,
+  "avg_active_positions": 27.976829268292683,
+  "n_rebalances": 820,
+  "n_factors_min": 1,
+  "n_factors_max": 9,
+  "annualized_cost_drag": 0.0213360071205177
+}
