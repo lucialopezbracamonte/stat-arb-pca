@@ -1,0 +1,44 @@
+{
+  "default (60d window, weekly refit, 55% var threshold)": {
+    "sharpe": 0.127,
+    "annualized_return": 0.0061,
+    "max_drawdown": -0.118,
+    "avg_turnover_per_rebalance": 0.846,
+    "annualized_cost_drag": 0.0213
+  },
+  "daily refit (paper's cadence)": {
+    "sharpe": -0.226,
+    "annualized_return": -0.0115,
+    "max_drawdown": -0.243,
+    "avg_turnover_per_rebalance": 0.39,
+    "annualized_cost_drag": 0.0491
+  },
+  "fixed 5 factors (no variance threshold)": {
+    "sharpe": -0.105,
+    "annualized_return": -0.0044,
+    "max_drawdown": -0.174,
+    "avg_turnover_per_rebalance": 0.845,
+    "annualized_cost_drag": 0.0213
+  },
+  "A&L window split (252d PCA / 60d OU)": {
+    "sharpe": -0.151,
+    "annualized_return": -0.0072,
+    "max_drawdown": -0.201,
+    "avg_turnover_per_rebalance": 0.885,
+    "annualized_cost_drag": 0.0223
+  },
+  "variance threshold 45%": {
+    "sharpe": 0.148,
+    "annualized_return": 0.0078,
+    "max_drawdown": -0.107,
+    "avg_turnover_per_rebalance": 0.814,
+    "annualized_cost_drag": 0.0205
+  },
+  "variance threshold 65%": {
+    "sharpe": -0.016,
+    "annualized_return": -0.0007,
+    "max_drawdown": -0.188,
+    "avg_turnover_per_rebalance": 0.909,
+    "annualized_cost_drag": 0.0229
+  }
+}
